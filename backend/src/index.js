@@ -5,6 +5,7 @@ import { connectDB } from './lib/db.js';
 import cookieParser from 'cookie-parser';
 import messageRoutes from './routes/message.route.js';
 
+
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT;
